@@ -1,4 +1,4 @@
-PROG = gauss
+PROG = matrix
 
 CFLAGS = -Wall -Wextra -Wpedantic -ggdb -std=gnu11 -O0 `pkg-config --cflags glib-2.0`
 LDLIBS = `pkg-config --libs glib-2.0 gsl`
